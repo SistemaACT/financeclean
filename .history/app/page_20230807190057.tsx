@@ -4,7 +4,7 @@ import Option from '../components/Option'
 import {MdOutlineBusinessCenter} from "react-icons/md"
 import {BsBank2} from "react-icons/bs"
 import {FiSettings} from "react-icons/fi"
-import Area from "../components/Area"
+import Area from "../../components/Area"
 
 export default function Home() {
   const [area, setArea] = React.useState<undefined|string>(undefined)
